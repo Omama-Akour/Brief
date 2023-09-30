@@ -1,0 +1,290 @@
+.body{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(241, 241, 241);
+    
+}
+.navv{
+    background-color: rgb(234, 228, 229);
+   
+   overflow: hidden;
+    display: flex;
+   
+    
+}
+.navv div{
+   color: white;
+   width: 90px;
+}
+.navv a{
+    float: left;
+  display: block;
+  color: #f3f1f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+.navv a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navv a.active {
+    background-color:#d4aeb3e2;
+    color: white;
+  }
+  
+ 
+   
+
+.container{
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+  
+}
+.container div{
+  margin: 20px;
+}
+.containerupperrrr{
+  grid-template-columns:auto auto auto;
+  display: grid;
+  height: auto;
+  background-color:#d4aeb3e2 ;
+  
+}
+.containerupperrrr div{
+  margin: auto;
+
+}
+
+  
+
+.c div{
+  color: white;
+text-align: center;
+
+padding: 20px;
+
+
+  
+}
+.CSL{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+font-size: x-large;
+margin: auto;}
+
+  .pic div img{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+  }
+  .ab div{
+    font-size: xx-large;
+    margin: auto;
+    display: flex;
+    
+    
+  }
+  .s div{
+    
+    color: white;
+    display: flex;
+    
+  }
+  .l {
+    color: white;
+    
+  }
+  .l h3 {color: black;}
+
+  
+.experiance{
+  grid-template-columns: auto auto auto;
+  display: grid;
+  width: 100%;
+  height: auto;
+  justify-content: center; 
+  margin: 30px;
+  gap: 30px;
+ }
+ .e div{
+  gap: 10px;
+
+  margin: 10px;
+  display: grid;
+  text-align: center;
+  
+ }
+ .e div img{
+  width: 100%;
+  height: 270px;
+ }
+ .e{
+  display: flex;
+  margin: auto;
+ }
+   
+   .Activity{
+    margin: auto;
+    width: 100%;
+    height: auto;
+   justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+.Activity div img{
+  width: auto;
+  height: 400px;
+
+
+}
+.Activity div{
+  display: flex;
+    width: 90%;
+    height: auto;
+   
+   margin: 20px;
+   background-color:rgb(241, 241, 241);
+   gap: 20px;
+   text-align: center;
+   align-items: center;
+   
+   }
+  
+   .tt{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+   
+   
+    
+   }
+   .tt h4{
+    background-color: rgba(0, 0, 0, 0.271);
+    color: white;
+   }
+   
+    
+   
+   
+   .footer{
+    background-color: #e7e5e5;
+    width: auto%;
+  
+    text-align: center;
+    
+   }
+   .footer i{
+    font-size: x-large;
+    
+    font-weight: bold;
+    
+   }
+   
+   .CONTACTME{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f3f1f1;
+    align-items: center;
+    height: auto;
+   }
+   .CONTACTME legend {
+    color:#d4aeb3e2 ;
+    font-size: larger;
+   
+   }
+   .CONTACTME input{
+    background-color: #eddbdee2;
+    border-radius: 9%;
+    height: 30px;
+    
+   }
+   .CONTACTME td{
+    height: 40px;
+   }
+   .CONTACTME button {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-weight: bold;
+    width: auto;
+    background-color: #d4aeb330;
+   }
+   #M{
+    width: auto;
+    height: 60px;
+   }
+   #G{
+    color: rgb(152, 13, 186);
+   }
+   #F{
+    color: rgb(80, 80, 249);
+   }
+    #ACT{
+      text-align: center
+    }
+
+   @media (min-width: 300px) and (max-width:660px){
+    .containerupperrrr{
+     flex-wrap: wrap;
+     display: flex;
+     text-align: center;
+    }
+    .c{border: 2px dashed white;}
+    .CSL div{
+      font-size: x-large;
+      font-weight: bold;
+      
+    }
+    
+    
+    
+
+    
+    
+       .experiance{
+        grid-template-rows: auto;
+        display: grid;
+      }
+     
+          
+          .experiance{
+           grid-template-rows: auto ;
+           display: grid;}
+           .e div{
+             gap: 10px;
+           
+             margin: 10px;
+             
+             text-align: center;}
+             .e{
+               display: flex;
+               flex-direction: column;
+               margin: auto;}
+             
+   .Activity div{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+   }
+   
+      }    
+           
+          
+   
+ 
